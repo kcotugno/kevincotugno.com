@@ -1,0 +1,100 @@
+/* Stylesheet for kevincotugno.com */
+
+html {
+  font-family: serif;
+  font-size: 12pt;
+}
+
+body {
+  padding: 25px;
+  padding-left: 50px;
+  padding-right: 50px;
+}
+.construction {
+  color: #d51a00;
+  text-align: center;
+}
+
+.aboutme {
+  float: left;
+  width: 75%;
+}
+
+.openprojects {
+  float: left;
+  width: 25%;
+  box-shadow: 2px 2px 10px;
+  border-radius: 2em;
+  padding-top: 20px;
+  padding-bottom: 20px;
+}
+
+h1 {
+  font-size: 2.2em;
+  padding-left: 25px;
+  padding-right: 25px;
+}
+
+h2 {
+  font-size: 1.8em;
+  padding-left: 25px;
+  padding-right: 25px;
+}
+
+p {
+  font-size: 1.2em;
+  line-height: 150%;
+  padding-left: 25px;
+  padding-right: 25px;
+}
+
+a {
+  text-decoration: none;
+  color: blue;
+}
+
+a:hover {
+  color: #8ac0ff;
+  transition: color 0.25s;
+}
+
+a:visited {
+  color: blue;
+}
+
+a:visited:hover{
+  color: #8ac0ff;
+  transition: color 0.25s;
+}
+
+a img {
+  color: black;
+}
+
+a:hover img {
+    color: black;
+}
+
+a:visited img {
+  color: black;
+}
+
+a:visited:hover img {
+  color: black;
+}
+
+.github-image {
+  border-radius: 100%;
+  width: 40px;
+  height: 40px;
+}
+
+.generic-shadow:hover {
+  box-shadow: 2px 2px 5px;
+  transition: box-shadow 0.5s;
+}
+
+footer {
+  text-align: center;
+  margin: 25px;
+}
