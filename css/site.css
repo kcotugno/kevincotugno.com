@@ -93,10 +93,18 @@ a:visited:hover img {
   color: black;
 }
 
-.github-image {
-  border-radius: 100%;
+.image {
   width: 40px;
   height: 40px;
+  margin: 0 5px 0 5px;
+}
+
+.github-image {
+  border-radius: 100%;
+}
+
+.gitlab-image {
+  border-radius: 50%;
 }
 
 .generic-shadow {
