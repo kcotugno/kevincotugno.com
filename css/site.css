@@ -51,6 +51,11 @@ body {
   border-width: 0.15em;
   height: 3em;
   color: #93a1a1;
+  transition: 0.5s color;
+}
+
+.footer-link:hover {
+  color: #586e75;
 }
 
 .footer-link a {
@@ -60,4 +65,11 @@ body {
   color: inherit;
   font-size: 1.15em;
   line-height: 2.5em;
+  transition: 0.5s color;
+  transition: 0.5s background-color;
+}
+
+.footer-link a:hover {
+  color: #839496;
+  background-color: #002b36;
 }
