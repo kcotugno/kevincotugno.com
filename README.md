@@ -1,3 +1,3 @@
-# kcotugno.github.io
+# kevincotugno.com
 
 My personal website
